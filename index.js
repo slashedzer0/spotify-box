@@ -68,7 +68,7 @@ async function updateTopTracks(json) {
       gist_id,
       files: {
         [filename]: {
-          filename: '🎵 My Spotify Top Tracks',
+          filename: '🎧 Spotify top tracks (weekly)',
           content: lines.join('\n'),
         },
       },
